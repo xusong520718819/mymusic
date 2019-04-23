@@ -1,0 +1,54 @@
+/*内外边距清零*/
+*{padding:0;margin:0}
+
+/*设置nav里的div的宽高度   居中*/
+#nav div.nav_all{
+    width:60%;
+    height:34px;
+    margin:0 auto;
+}
+
+/*设置div里的ul去点*/
+#nav div.nav_all>ul{
+    list-style: none;
+    float:left;
+}
+/*设置里面li的左浮动*/
+#nav div.nav_all>ul>li{
+    float:left;
+    line-height: 36px;
+    padding:0 60px;
+
+}
+/*设置li悬停的时候的样式---1.有边框，2.边框圆角，3.背景变化*/
+#nav div.nav_all>ul>li:hover{
+    border:1px solid transparent;
+    border-radius:30%;
+    background:#9B0909;
+}
+
+
+#nav div.nav_all>ul>li>a{
+    text-decoration: none;
+    color:#fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

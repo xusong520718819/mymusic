@@ -1,0 +1,93 @@
+/*清除内外边距*/
+*{padding:0;margin:0}
+
+/*background--e-a-6-2*/
+
+/*设置第一行#header部分*/
+#header{
+  width:100%;
+  height:80px;
+  background-color:#242424;
+}
+
+
+/*设置第二行#nav部分*/
+#nav{
+  width:100%;
+  height:45px;
+  background:#f00;
+}
+
+
+
+/*设置第三行#banner--；轮播图部分*/
+#banner{
+  width:100%;
+  height:336px;
+  background:#eee;
+}
+
+
+/*设置#section正文部分*/
+#section{
+  width:995px;height:1425px;
+  margin:0 auto;
+  background:#eee;
+}
+/*.content和.aside*/
+#section div.content{
+  float: left;
+  width:729px;height:1425px;
+  background:#aaa;
+}
+#section>div.aside{
+  float: right;
+  width:250px;height:920px;
+  background:#aaa;
+}
+
+/*.content里的三个div*/
+#section>div.content>div.content1{
+  width:689px;height:523px;
+  background:#666;
+  margin-bottom:15px;
+}
+#section>div.content>div.content2{
+  width:689px;height:243px;
+  background:#666;
+  margin-bottom:15px;
+}
+#section>div.content>div.content3{
+  width:689px;height:527px;
+  background:#666;
+  margin-bottom:15px;
+}
+/*.aside里的三个div*/
+#section>div.aside>div.aside1{
+  width:230px;height:126px;
+  background:#666;
+  margin-bottom:15px;
+}
+#section>div.aside>div.aside2{
+  width:230px;height:380px;
+  background:#666;
+  margin-bottom:15px;
+}
+#section>div.aside>div.aside3{
+  width:230px;height:294px;
+  background:#666;
+  margin-bottom:15px;
+}
+
+/*设置最后#footer部分*/
+#footer{
+  width:100%;
+  height:149px;
+  background:#eee;
+}
+
+
+
+
+
+

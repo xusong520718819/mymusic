@@ -1,0 +1,166 @@
+/*css reset样式重置*/
+*{padding:0;margin:0}
+
+/**/
+#banner1{
+  width:1243px;
+  height:70px;
+  background:#000;
+  color:#fff;
+  line-height:70px;
+  position:relative;
+  margin:0 auto;
+}
+
+div.banner1>div,li{
+  float:left;
+  margin:0 10px;
+}
+
+div ul.banner_ul{
+  list-style:none;
+}
+
+div.banner1>div,li>a{
+  text-decoration:none;
+  color:#ccc;
+}
+
+
+div>input.bg_radius1{
+  width:158px;
+  height:32px;
+  border-radius:10px;
+}
+
+.banner1 div.bg_radius2{
+  width:90px;
+  height:32px;
+  margin-top:18px;
+  border-radius:10px;
+  border:1px solid #fff;
+  line-height:32px;
+}
+
+div.bg_radius3{
+  position:relative;
+}
+
+
+#banner1 ul.under_login{
+  display:none;
+  line-height:40px;
+  width:169px;
+  height:220px;
+  list-style-position:inside;
+  background:#333;
+  position:absolute;
+  top:69px;
+  left:-20px;
+  list-style-image:url(../images/banner/wechat.png);
+}
+#banner1 .bg_radius3:hover .under_login{
+display:block;     /*悬停在父元素上，子元素就显示了*/
+}
+
+
+/*第二行导航栏*/
+#banner2{
+  width:1243px;
+  height:34px;
+  background:#C20C0C;
+  color:#fff;
+  line-height:34px;
+  font-size:12px;
+  margin:0 auto;
+}
+
+ul.banner_title{
+  height:34px;
+  float:left;
+  list-style:none;
+  margin-left:220px;
+}
+
+ul.banner_title li a{
+  color:#fff;
+  margin:0px 20px;
+}
+
+
+/*轮播图片*/
+#bg_banner3{
+  width:1320px;height:336px;
+  background:#000;
+  margin:0 auto;
+}
+#bg_banner3>div.banner3{
+  width:1320px;
+  height:336px;
+  overflow:hidden;
+  margin-left:250px;
+  position:relative;   /*给子元素定位*/
+}
+#bg_banner3>div.banner3>ul.imgs{
+  list-style:none;
+  float:left;
+}
+
+/*设置左边的箭头*/
+#bg_banner3>div.banner3>a.arrow_left,#bg_banner3>div.banner3>a.arrow_right{
+  position:absolute;
+  top:40%;left:2%;
+  width:35px;height:70px;
+  background:#333 url(../images/banner/arrow-left.png) no-repeat center center;
+  background-position:center center;
+  opacity:0.3;
+}
+/*设置右边的箭头*/
+#bg_banner3>div.banner3>a.arrow_right{
+  background:#333 url(../images/banner/arrow-right.png) no-repeat center center;
+  top:40%;left:52.5%;
+}
+
+#bg_banner3 ul.point9{
+  list-style:none;
+  width:280px;height:20px;
+  float:left;
+  position: absolute;
+  top:300px;left:230px;
+}
+
+#bg_banner3 ul.point9>li{
+  width:8px;height:8px;
+  border-radius:50%;
+  background:#000;
+}
+
+/*热门推荐华语 | 流行 | 摇滚 | 民谣 | 电子*/
+#banner4{
+  width:690px;
+}
+#banner4 div.a_banner7{
+  width:689px;height:35px;
+  background:#0ff;
+  line-height:35px;
+  margin:0 auto;
+}
+
+
+#banner4 div.a_banner7 a{
+  text-decoration:none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
